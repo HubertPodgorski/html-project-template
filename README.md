@@ -29,3 +29,14 @@ To watch files changes and compile each time without running local web server ru
 ## Default
 
 Default set task is development, which is described above. Running `gulp` command with run development command.
+
+## Templating
+
+To set up templating the only two things u need is to run script 
+`<script>
+    templating.includeHTML();
+</script>`
+
+in Your **'base'** HTML file, as well as HTML tag with **include-html** attribute `<div include-html="navigation.html"></div>`.
+
+Templating help us maintain duplicated code like headers, footers, nav on each page with just one source file.
