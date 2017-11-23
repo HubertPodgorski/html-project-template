@@ -1,0 +1,1 @@
+szablon-stron-html
